@@ -8,11 +8,11 @@ import {Navbar} from "widgets/Navbar";
 
 const App = () => {
    const { theme } = useTheme();
+
     return (
         <div className={classNames('app', {}, [theme])}>
-            <Navbar/>
-            <AppRouter/>
-
+            <Navbar />
+            <AppRouter />
         </div>
     );
 };
